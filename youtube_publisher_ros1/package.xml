@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>youtube_publisher_ros1</name>
+  <version>0.0.1</version>
+  <description>
+    A ROS1 package that publishes video frames from a YouTube link.
+  </description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <!-- You should install youtube_dl via pip, so it's not declared here -->
+  <export>
+    <!-- Other tools can use additional information here -->
+  </export>
+</package>
